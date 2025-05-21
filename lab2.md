@@ -26,6 +26,10 @@ PAGE_SHIFT=log2(PAGE_SIZE)
 
 将pa从物理地址转换成虚拟地址
 
+#### PADDR(va)宏的含义
+
+将va从内核虚拟地址转成对应的物理地址
+
 #### page2kva（pp）宏的含义
 
 ```
